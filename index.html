@@ -1,1 +1,224 @@
-sheru gaming
+html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHERU GAMING</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #080812;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #111121;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #8b2cff;
+}
+
+.logo {
+  color: #bd7aff;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 12px;
+  font-size: 13px;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 15px;
+  background: linear-gradient(135deg,#25094b,#080812);
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #c084fc;
+  text-shadow: 0 0 15px #8b2cff;
+}
+
+.hero p {
+  margin: 18px 0;
+  color: #ccc;
+}
+
+.btn {
+  display: inline-block;
+  background: #8b2cff;
+  color: white;
+  padding: 13px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.container {
+  padding: 30px 18px;
+}
+
+h2 {
+  color: #c084fc;
+  margin-bottom: 20px;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 15px;
+}
+
+.card {
+  background: #151526;
+  border: 1px solid #39304e;
+  border-radius: 12px;
+  overflow: hidden;
+  padding-bottom: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  border-color: #b46aff;
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+
+.card h3 {
+  padding: 12px;
+}
+
+.card p {
+  padding: 0 12px;
+  color: #aaa;
+  font-size: 13px;
+}
+
+.card a {
+  display: inline-block;
+  margin: 12px;
+  color: #c084fc;
+  text-decoration: none;
+}
+
+.news {
+  background: #151526;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  border-left: 3px solid #8b2cff;
+}
+
+footer {
+  background: #111121;
+  padding: 25px;
+  text-align: center;
+  color: #aaa;
+  margin-top: 30px;
+}
+
+@media(max-width:400px) {
+  .logo {font-size:18px;}
+  nav a {font-size:11px;margin-left:5px;}
+  .hero h1 {font-size:27px;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">🐺 SHERU GAMING</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#games">Games</a>
+    <a href="#news">News</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>SHERU GAMING</h1>
+  <p>ENTER THE WORLD OF GAMING</p>
+  <a href="#games" class="btn">EXPLORE NOW</a>
+</section>
+
+<section class="container" id="games">
+  <h2>🔥 POPULAR GAMES</h2>
+
+  <div class="games">
+
+    <div class="card">
+      <img src="https://placehold.co/400x220/17112e/ffffff?text=BGMI" alt="BGMI">
+      <h3>BGMI</h3>
+      <p>Battle Royale</p>
+      <a href="https://www.battlegroundsmobileindia.com/">PLAY / EXPLORE →</a>
+    </div>
+
+    <div class="card">
+      <img src="https://placehold.co/400x220/17112e/ffffff?text=FREE+FIRE" alt="Free Fire">
+      <h3>FREE FIRE</h3>
+      <p>Survival Battle</p>
+      <a href="https://ff.garena.com/">PLAY / EXPLORE →</a>
+    </div>
+
+    <div class="card">
+      <img src="https://placehold.co/400x220/17112e/ffffff?text=GTA+V" alt="GTA V">
+      <h3>GTA V</h3>
+      <p>Open World</p>
+      <a href="https://www.rockstargames.com/gta-v">EXPLORE →</a>
+    </div>
+
+    <div class="card">
+      <img src="https://placehold.co/400x220/17112e/ffffff?text=MINECRAFT" alt="Minecraft">
+      <h3>MINECRAFT</h3>
+      <p>Build Your World</p>
+      <a href="https://www.minecraft.net/">EXPLORE →</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="container" id="news">
+  <h2>📰 GAMING NEWS</h2>
+
+  <div class="news">
+    <h3>Welcome to Sheru Gaming!</h3>
+    <p>Get ready for gaming updates and exciting content.</p>
+  </div>
+
+  <div class="news">
+    <h3>Gaming Community</h3>
+    <p>Discover your favourite games in one place.</p>
+  </div>
+</section>
+
+<section class="container">
+  <h2>ABOUT US</h2>
+  <p>SHERU GAMING is your ultimate gaming destination. Explore games, discover updates and enjoy the gaming world!</p>
+</section>
+
+<footer>
+  <h3>🐺 SHERU GAMING</h3>
+  <p>© 2026 Sheru Gaming. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+
+HTML
